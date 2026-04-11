@@ -205,7 +205,7 @@ export default function LandingPage() {
                transition={{ delay: 0.4, duration: 0.6 }}
                className="relative h-[280px] sm:h-[380px] lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl bg-slate-800"
             >
-              <img src="https://images.unsplash.com/photo-1557597774-9d273e3818cb?auto=format&fit=crop&q=80" alt="CCTV Server Room" className="w-full h-full object-cover" />
+              <img src="/hero-bg.png" alt="Sala de Controle e Monitoramento" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-tr from-black/80 via-black/30 to-transparent flex items-end p-8">
                 <div className="bg-black/60 backdrop-blur-md border border-white/20 px-6 py-4 rounded-xl">
                   <p className="text-white font-bold flex items-center gap-2"><CheckCircle2 className="text-brand w-5 h-5"/> Monitoramento Ativo</p>
@@ -246,7 +246,7 @@ export default function LandingPage() {
                 </div>
                 {/* Image inset on the right on larger screens */}
                 <div className="hidden md:block absolute right-0 top-0 w-1/3 h-full">
-                  <img src="/facial-access.png" alt="Controle de Acesso Facial" className="w-full h-full object-cover object-center rounded-l-3xl shadow-[-10px_0_30px_rgba(0,0,0,0.1)]" />
+                  <img src="/facial-access-new.png" alt="Controle de Acesso Facial" className="w-full h-full object-cover object-center rounded-l-3xl shadow-[-10px_0_30px_rgba(0,0,0,0.1)]" />
                 </div>
               </motion.div>
 
@@ -332,7 +332,7 @@ export default function LandingPage() {
                 className="relative order-2 lg:order-1"
               >
                 <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-xl">
-                    <img src="https://images.unsplash.com/photo-1581092334812-78d10ed737e5?auto=format&fit=crop&w=800&q=80" alt="Tech Maintenance" className="w-full h-full object-cover" />
+                    <img src="/tech-maintenance.png" alt="Técnico de Manutenção" className="w-full h-full object-cover" />
                 </div>
                 <div className="absolute -bottom-8 -right-8 bg-brand text-white p-8 rounded-2xl shadow-2xl hidden md:block max-w-[250px]">
                    <h4 className="text-4xl font-black mb-2">10+</h4>
