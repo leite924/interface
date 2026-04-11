@@ -144,7 +144,7 @@ export default function LandingPage() {
 
       <main className="relative z-10 pt-24">
         {/* Hero Section */}
-        <section className="relative px-6 md:px-12 py-20 pb-32 md:py-32 lg:py-40 flex items-center min-h-[90vh]">
+        <section className="relative px-6 md:px-12 py-20 md:py-32 lg:py-40 flex items-center min-h-screen lg:min-h-[90vh]">
           {/* Subtle background element */}
           <div className="absolute inset-0 z-[-1] bg-slate-50">
             <div className="absolute right-0 top-0 w-1/2 h-full bg-slate-100 transform skew-x-[-10deg] translate-x-32 hidden lg:block" />
@@ -203,7 +203,7 @@ export default function LandingPage() {
                initial={{ opacity: 0, scale: 0.95 }}
                animate={{ opacity: 1, scale: 1 }}
                transition={{ delay: 0.4, duration: 0.6 }}
-               className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl bg-slate-800"
+               className="relative h-[280px] sm:h-[380px] lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl bg-slate-800"
             >
               <img src="https://images.unsplash.com/photo-1557597774-9d273e3818cb?auto=format&fit=crop&q=80" alt="CCTV Server Room" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-tr from-black/80 via-black/30 to-transparent flex items-end p-8">
