@@ -246,7 +246,7 @@ export default function LandingPage() {
                 </div>
                 {/* Image inset on the right on larger screens */}
                 <div className="hidden md:block absolute right-0 top-0 w-1/3 h-full">
-                  <img src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80" alt="CCTV Cameras" className="w-full h-full object-cover object-left rounded-l-3xl shadow-[-10px_0_30px_rgba(0,0,0,0.1)]" />
+                  <img src="/facial-access.png" alt="Controle de Acesso Facial" className="w-full h-full object-cover object-center rounded-l-3xl shadow-[-10px_0_30px_rgba(0,0,0,0.1)]" />
                 </div>
               </motion.div>
 
