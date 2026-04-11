@@ -239,7 +239,9 @@ export default function LandingPage() {
                     <ScanFace className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold mb-3 text-black">Acesso Biométrico</h3>
-                  <p className="text-slate-600 mb-8">Acessos monitorados através do reconhecimento facial 3D, biometria digital e chaves digitais seguras.</p>
+                  <p className="text-slate-600 mb-8">
+                    Acessos monitorados através do reconhecimento facial 3D, biometria digital e chaves digitais seguras. Controle total do fluxo de entrada, eliminando fraudes, reduzindo filas em horários de pico e integrando catracas para uma gestão de alto padrão.
+                  </p>
                   <a href="#contato" className="text-black font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
                     Saiba Mais <ChevronRight className="w-4 h-4" />
                   </a>
