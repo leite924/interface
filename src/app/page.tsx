@@ -232,16 +232,16 @@ export default function LandingPage() {
               viewport={{ once: true, margin: "-100px" }}
               className="grid grid-cols-1 md:grid-cols-3 gap-6"
             >
-              {/* Câmeras de monitoramento - Span 2 cols */}
+              {/* Controle de acesso biométrico - Span 2 cols */}
               <motion.div variants={fadeIn} className="md:col-span-2 glass-card rounded-3xl p-8 relative overflow-hidden group min-h-[320px]">
                 <div className="relative z-10 w-full md:w-2/3">
-                  <div className="w-14 h-14 bg-brand/10 rounded-2xl flex items-center justify-center mb-6">
-                    <Cctv className="w-8 h-8 text-brand" />
+                  <div className="w-14 h-14 bg-black rounded-2xl flex items-center justify-center mb-6">
+                    <ScanFace className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold mb-3 text-black">CFTV & Monitoramento VIP</h3>
-                  <p className="text-slate-600 mb-8">Implantação de câmeras IPs de altíssima resolução com inteligência artificial embarcada para visão noturna, identificação precisa e proteção de perímetros e condomínios.</p>
-                  <a href="#contato" className="text-brand font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
-                    Solicitar Análise <ChevronRight className="w-4 h-4" />
+                  <h3 className="text-2xl font-bold mb-3 text-black">Acesso Biométrico</h3>
+                  <p className="text-slate-600 mb-8">Acessos monitorados através do reconhecimento facial 3D, biometria digital e chaves digitais seguras.</p>
+                  <a href="#contato" className="text-black font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
+                    Saiba Mais <ChevronRight className="w-4 h-4" />
                   </a>
                 </div>
                 {/* Image inset on the right on larger screens */}
@@ -250,16 +250,16 @@ export default function LandingPage() {
                 </div>
               </motion.div>
 
-              {/* Controle de acesso biométrico */}
+              {/* Câmeras de monitoramento */}
               <motion.div variants={fadeIn} className="glass-card rounded-3xl p-8 group flex flex-col min-h-[320px]">
-                <div className="w-14 h-14 bg-black rounded-2xl flex items-center justify-center mb-6">
-                  <ScanFace className="w-8 h-8 text-white" />
+                <div className="w-14 h-14 bg-brand/10 rounded-2xl flex items-center justify-center mb-6">
+                  <Cctv className="w-8 h-8 text-brand" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-black">Acesso Biométrico</h3>
-                <p className="text-slate-600 mb-6 flex-grow">Acessos monitorados através do reconhecimento facial 3D, biometria digital e chaves digitais seguras.</p>
+                <h3 className="text-xl font-bold mb-3 text-black">CFTV & Monitoramento VIP</h3>
+                <p className="text-slate-600 mb-6 flex-grow">Implantação de câmeras IPs de altíssima resolução com inteligência artificial embarcada para visão noturna, identificação precisa e proteção de perímetros e condomínios.</p>
                 <div className="mt-auto">
-                  <a href="#contato" className="text-black font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
-                    Saiba Mais <ChevronRight className="w-4 h-4" />
+                  <a href="#contato" className="text-brand font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
+                    Solicitar Análise <ChevronRight className="w-4 h-4" />
                   </a>
                 </div>
               </motion.div>
