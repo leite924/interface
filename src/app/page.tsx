@@ -334,7 +334,7 @@ export default function LandingPage() {
                 className="relative order-2 lg:order-1"
               >
                 <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-xl">
-                    <img src="/tech-maintenance.png" alt="Técnico de Manutenção" className="w-full h-full object-cover" />
+                    <img src="/tech-maintenance.png" alt="Técnico de Manutenção" className="w-full h-full object-cover object-top" />
                 </div>
                 <div className="absolute -bottom-8 -right-8 bg-brand text-white p-8 rounded-2xl shadow-2xl hidden md:block max-w-[250px]">
                    <h4 className="text-4xl font-black mb-2">10+</h4>
