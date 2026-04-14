@@ -337,7 +337,7 @@ export default function LandingPage() {
                     <img src="/tech-maintenance.png" alt="Técnico de Manutenção" className="w-full h-full object-cover object-top" />
                 </div>
                 <div className="absolute -bottom-8 -right-8 bg-brand text-white p-8 rounded-2xl shadow-2xl hidden md:block max-w-[250px]">
-                   <h4 className="text-4xl font-black mb-2">10+</h4>
+                   <h4 className="text-4xl font-black mb-2">25+</h4>
                    <p className="font-bold leading-tight">Anos de experiência focada em você.</p>
                 </div>
               </motion.div>
