@@ -104,7 +104,7 @@ export default function LandingPage() {
       <nav className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${isScrolled ? 'glass py-4 shadow-sm' : 'bg-transparent py-6'}`}>
         <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
           <div className="flex items-center">
-            <img src="/logo.png" alt="Interface Vídeos e Sistemas Digitais" className="h-10 w-auto" />
+            <img src="/logo.png" alt="Interface Vídeos e Sistemas Digitais" className="h-[52px] w-auto" />
           </div>
 
           {/* Desktop Nav */}
@@ -379,6 +379,45 @@ export default function LandingPage() {
           </div>
         </section>
 
+        {/* Clients Marquee */}
+        <section id="clientes" className="py-16 bg-white border-y border-slate-100">
+          <div className="container mx-auto px-6 md:px-12 mb-10 text-center">
+            <p className="text-xs font-bold tracking-[0.25em] text-slate-500 uppercase mb-3">Quem confia na Interface</p>
+            <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900">Clientes que nos escolheram</h2>
+          </div>
+          <div className="marquee-mask overflow-hidden">
+            <div className="marquee-track items-center gap-16 px-8">
+              {(() => {
+                const clientLogos = [
+                  { src: "/clients/disnove.png", alt: "Disnove Volkswagen" },
+                  { src: "/clients/alpargatas.png", alt: "Alpargatas" },
+                  { src: "/clients/unicap.png", alt: "Universidade Católica de Pernambuco" },
+                  { src: "/clients/bokus.png", alt: "Boku's" },
+                  { src: "/clients/nissan-auto-oriente.png", alt: "Nissan Auto Oriente" },
+                  { src: "/clients/hse.png", alt: "Hospital dos Servidores do Estado" },
+                  { src: "/clients/innovative.png", alt: "Innovative Water Care" },
+                  { src: "/clients/autovip.png", alt: "Auto Vip Multimarcas" },
+                  { src: "/clients/reserva-carneiros.png", alt: "Reserva dos Carneiros" },
+                  { src: "/clients/irh.png", alt: "Instituto de Recursos Humanos" },
+                  { src: "/clients/marulhos.png", alt: "Marulhos Suítes Resort" },
+                  { src: "/clients/fiocruz.png", alt: "Fiocruz Pernambuco" },
+                  { src: "/clients/rio-ave.png", alt: "Rio Ave" },
+                  { src: "/clients/marilan.png", alt: "Marilan" },
+                ];
+                return [...clientLogos, ...clientLogos];
+              })().map((logo, i) => (
+                <img
+                  key={i}
+                  src={logo.src}
+                  alt={logo.alt}
+                  className="client-logo h-12 md:h-14 w-auto object-contain shrink-0"
+                  loading="lazy"
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Testimonials */}
         <section id="depoimentos" className="px-6 md:px-12 py-24 bg-slate-50">
           <div className="container mx-auto">
@@ -497,7 +536,7 @@ export default function LandingPage() {
                     <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center"><Mail className="w-6 h-6 text-brand"/></div>
                     <div>
                       <p className="text-sm text-slate-400 mb-1">Contato Geral</p>
-                      <p className="font-bold text-xl">contato@interfacevideos.com.br</p>
+                      <p className="font-bold text-xl">contato@interfacedigital.com.br</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-5">
@@ -525,7 +564,7 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center gap-2 mb-6">
-                <img src="/logo.png" alt="Interface Vídeos e Sistemas Digitais" className="h-12 w-auto brightness-0 invert" />
+                <img src="/logo.png" alt="Interface Vídeos e Sistemas Digitais" className="h-[62px] w-auto brightness-0 invert" />
               </div>
               <p className="text-slate-400 max-w-sm mb-6 leading-relaxed">
                 Vídeos e sistemas digitais corporativos. Solucionando falhas, automatizando entradas e protegendo o que importa com alto nível.
