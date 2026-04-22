@@ -88,7 +88,7 @@ const jsonLd = {
   name: "Interface Vídeos e Sistemas Digitais",
   image: `${SITE_URL}/logo.png`,
   url: SITE_URL,
-  telephone: "+5581999642883",
+  telephone: "+5581986296128",
   email: "contato@interfacedigital.com.br",
   priceRange: "$$",
   description:
@@ -123,7 +123,7 @@ const jsonLd = {
   ],
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+5581999642883",
+    telephone: "+5581986296128",
     contactType: "customer service",
     availableLanguage: ["Portuguese"],
     areaServed: "BR",

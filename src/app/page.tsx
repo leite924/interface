@@ -13,7 +13,7 @@ function ContactForm() {
     e.preventDefault();
     if (!nome.trim() || !telefone.trim()) return;
     const texto = `Olá! Vim pelo site da Interface.%0A%0A*Nome:* ${encodeURIComponent(nome)}%0A*E-mail:* ${encodeURIComponent(email || "Não informado")}%0A*Telefone:* ${encodeURIComponent(telefone)}%0A*Necessidade:* ${encodeURIComponent(mensagem || "Não informado")}`;
-    window.open(`https://wa.me/5581999642883?text=${texto}`, "_blank");
+    window.open(`https://wa.me/5581986296128?text=${texto}`, "_blank");
     setEnviado(true);
     setTimeout(() => setEnviado(false), 4000);
   }
@@ -529,7 +529,7 @@ export default function LandingPage() {
                     <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center"><Phone className="w-6 h-6 text-brand"/></div>
                     <div>
                       <p className="text-sm text-slate-400 mb-1">Central de Atendimento</p>
-                      <p className="font-bold text-xl">(81) 99964-2883</p>
+                      <p className="font-bold text-xl">(81) 98629-6128</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-5">
@@ -543,7 +543,7 @@ export default function LandingPage() {
                     <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center"><MapPin className="w-6 h-6 text-brand"/></div>
                     <div>
                       <p className="text-sm text-slate-400 mb-1">Escritório Central</p>
-                      <p className="font-bold text-lg">Av. Dom Hélder Câmara, 234 - Sala 09</p>
+                      <p className="font-bold text-lg">Av. Olinda Dom Hélder Câmara, 234 - Sala 09</p>
                       <p className="text-slate-400 text-sm">Santa Tereza, Olinda - PE · CEP 53010-005</p>
                       <p className="text-slate-400 text-sm">Seg–Qui 08:00–18:00 · Sex 08:00–17:00</p>
                     </div>
